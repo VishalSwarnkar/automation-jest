@@ -1,0 +1,17 @@
+<testsuites name="jest tests" tests="1" failures="1" time="2.88">
+  <testsuite name="Forced Migration Stats Test" errors="0" failures="1" skipped="0" timestamp="2018-08-10T14:45:27" time="2.836" tests="1">
+    <testcase classname="Forced Migration Stats Test should fire forced migration stats on page load [`bvt`, `stats`, `migration`, `stats`]" name="Forced Migration Stats Test should fire forced migration stats on page load [`bvt`, `stats`, `migration`, `stats`]" time="2.14">
+      <failure>Error: Protocol error: Connection closed. Most likely the page has been closed.
+    at assert (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/node_modules/puppeteer/lib/helper.js:283:11)
+    at Page.close (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/node_modules/puppeteer/lib/Page.js:930:5)
+    at Object.close (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/tests/launch.test.js:17:16)
+    at Object.asyncFn (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/node_modules/jest-jasmine2/build/jasmine_async.js:63:37)
+    at resolve (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/Users/swarnv01/Documents/MyBackup/Innovation/automation-jest/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

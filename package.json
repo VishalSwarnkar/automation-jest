@@ -1,0 +1,23 @@
+{
+  "name": "automation-jest",
+  "version": "1.0.0",
+  "description": "automation framework with jest",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^2.0.1",
+    "jest": "^23.4.2",
+    "jest-junit": "^5.1.0",
+    "puppeteer": "^1.7.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --config jest.config.js"
+  },
+  "keywords": [
+    "testing",
+    "puppeteer"
+  ],
+  "author": "vishal",
+  "license": "MIT"
+}

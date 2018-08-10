@@ -1,0 +1,8 @@
+{
+  "url": {
+    "google": {
+        "protocol": "https",
+        "hostname": "www.google.co.uk"
+      }
+  }
+}
